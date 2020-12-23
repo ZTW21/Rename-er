@@ -13,6 +13,7 @@ Clone this project
 
 3.
 Change DISCORD_TOKEN in the .env file to your server's token (found in the bot tab of your new Discord application)
+
 Change the channel_id variable in bot.py so that the channel id of the channel in your sever is passed through client.get_channel()
 
 4.
