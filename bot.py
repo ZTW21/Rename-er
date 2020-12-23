@@ -14,10 +14,18 @@ today = date.today()
 
 
 def change_channel_name():
-    if today.month == 2 and today.day == 14:
+    if today.month == 1 and today.day == 1:
+        new_name = '🧨 Happy New Years 🎍'
+    elif today.month == 2 and today.day == 14:
         new_name = '💝 Happy Valentines day 💌'
+    elif today.month == 7 and today.day == 4:
+        new_name = '🧨 Forth of July 🧨'
+    elif today.month == 12 and today.day == 24:
+        new_name = '🎄 Christmas Eve 🎄'
     elif today.month == 12 and today.day == 25:
         new_name = '🎅 Merry Christmas 🎄'
+    elif today.month == 12 and today.day == 31:
+        new_name = '🧨 New Years Eve 🧨'
     else:
         new_name = today.strftime("%B %d, %Y")
 
