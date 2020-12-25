@@ -32,6 +32,8 @@ def change_channel_name():
     else:
         if date(date_str) in us_holidays:
             new_name = us_holidays.get(date_str)
+        else:
+            new_name = date_str
 
     return new_name
 
