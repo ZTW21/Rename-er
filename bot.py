@@ -33,7 +33,7 @@ def change_channel_name():
         if date(date_str) in us_holidays:
             new_name = us_holidays.get(date_str)
         else:
-            new_name = date_str
+            new_name = date_str.replace(" ", "_")
 
     return new_name
 
